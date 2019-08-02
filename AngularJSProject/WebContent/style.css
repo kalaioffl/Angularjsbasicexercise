@@ -1,0 +1,104 @@
+@charset "ISO-8859-1";
+body{
+	 font : 14px sans-serif;
+	 color : #688242;
+	 text-align:center;
+}
+nav{
+	display: inline-block;
+	background-color:#6678f4;
+	border-radius:5px;
+	padding : 10px;
+	width: 40%;
+}
+
+
+nav a{
+	display:inline-block;
+	padding: 10px 10px ;
+	color:#fefefe;
+	font-size:30px;
+	text-decoration:none;
+	font-family: 'Grenze', serif;
+}
+
+.jumbotron{
+	font-family: 'Grenze', serif;
+	color: #030303;
+
+}
+#myInput {
+  
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  font-family: 'Grenze', serif;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+#myUL li a {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+h2{
+	font-family: 'Grenze', serif;
+	color: #030303;
+}
+
+p{
+		font-family: 'Grenze', serif;
+	color: #030303;
+}
+.row: after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+
+
+
+
+
+
+
